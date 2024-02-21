@@ -9,6 +9,7 @@ try:
   raw_version = tag.replace('v', '')
   sha265sum_url = f"https://github.com/jjoshm/knockson/releases/download/{tag}/knockson_{tag}_x86_64-unknown-linux-musl.tar.xz.sha256sum"
   sha265sum = requests.get(sha265sum_url).content.decode("utf-8")
+  sha265sum = sha265sum.split(" ")[0]
 
   template = """#Maintainer: Josh Münte
 #Auto generated. Do not edit.
