@@ -108,21 +108,21 @@ fn main() {
         std::process::exit(exitcode::USAGE);
     }
 
-    let mut loader = Loading::new();
-    loader.start();
+    let mut loading_bar = Loading::new();
+    loading_bar.start();
     let pool = ThreadPool::new(opts.amount_thread);
 
     for i in opts.from_port..opts.to_port + 1 {
         let host = opts.host.clone();
-        let loader = loader.clone();
+        let loader = loading_bar.clone();
         pool.execute(move || check_port(host, i as i32, loader));
     }
 
     drop(pool);
-    loader.info(format!("Finished scanning {} ports.", {
+    loading_bar.info(format!("Finished scanning {} ports.", {
         opts.to_port - opts.from_port + 1
     }));
-    loader.end();
+    loading_bar.end();
     io::stdout().flush().unwrap();
     std::process::exit(exitcode::OK);
 }
