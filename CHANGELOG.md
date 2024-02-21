@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.9.1](https://www.github.com/jjoshm/knockson/compare/v0.9.0...v0.9.1) (2024-02-21)
+
+
+### Bug Fixes
+
+* rename ([be7e2f4](https://www.github.com/jjoshm/knockson/commit/be7e2f421bd23f74fcf1467dc6274f4ddb5a256a))
+
 ## [0.9.0](https://www.github.com/jjoshm/knockson/compare/v0.8.1...v0.9.0) (2024-02-21)
 
 
