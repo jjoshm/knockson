@@ -10,7 +10,7 @@ https://aur.archlinux.org/packages/knockson-bin/
 `yay -Syu knockson-bin`
 
 ## Manual
-Builds can be found here https://github.com/joshmuente/knockson/releases/
+Builds can be found here https://github.com/jjoshm/knockson/releases/
 
 # Usage
 ```USAGE:
@@ -26,6 +26,6 @@ OPTIONS:
     -h, --host <HOST>                      [default: 127.0.0.1]
     -t, --to-port <TO_PORT>                [default: 65535]
 ```
-    
+
 ## Example
 `knockson -f 1 -t 200 -h scanme.nmap.org -a 100`

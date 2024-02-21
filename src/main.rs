@@ -9,7 +9,7 @@ use std::{thread};
 use std::io::{self, Write};
 
 #[derive(Clap)]
-#[clap(version = crate_version!(), author = "Josh M. <https://github.com/joshmuente>")]
+#[clap(version = crate_version!(), author = "Josh M. <https://github.com/jjoshm>")]
 #[clap(setting = AppSettings::ColoredHelp)]
 struct Opts {
     #[clap(short, long, takes_value = true, default_value = "127.0.0.1")]
