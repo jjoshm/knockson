@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.9.0](https://www.github.com/jjoshm/knockson/compare/v0.8.1...v0.9.0) (2024-02-21)
+
+
+### Features
+
+* flush terminal before exit ([b482a88](https://www.github.com/jjoshm/knockson/commit/b482a8896c47c42a1b776b062d6fc919ec72b367))
+
+
+### Bug Fixes
+
+* formatting ([8f4a0a0](https://www.github.com/jjoshm/knockson/commit/8f4a0a06a6dcd7a388cf55764cfb610ce9963dd8))
+* update repo url ([eb0bec7](https://www.github.com/jjoshm/knockson/commit/eb0bec7c65d8d2cc17174ff16bf7c544a1a837f4))
+
 ### [0.8.1](https://www.github.com/joshmuente/knockson/compare/v0.8.0...v0.8.1) (2021-09-15)
 
 
