@@ -1,12 +1,12 @@
 use clap::crate_version;
 use clap::{AppSettings, Clap};
 use loading::Loading;
+use std::io::{self, Write};
 use std::net::TcpStream;
 use std::sync::mpsc;
 use std::sync::Arc;
 use std::sync::Mutex;
-use std::{thread};
-use std::io::{self, Write};
+use std::thread;
 
 #[derive(Clap)]
 #[clap(version = crate_version!(), author = "Josh M. <https://github.com/jjoshm>")]
